@@ -11,9 +11,11 @@
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
 		"start": "wp-scripts start",
-		"packages-update": "wp-scripts packages-update"
+		"packages-update": "wp-scripts packages-update",
+		"package": "./scripts/package.sh"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^12.2.1"
+		"@wordpress/scripts": "^12.2.1",
+		"blockbook-cli": "^0.7.0"
 	}
 }
