@@ -11,6 +11,8 @@
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
 		"start": "wp-scripts start",
+		"blockbook:start": "blockbook start",
+		"blockbook:build": "blockbook build",
 		"packages-update": "wp-scripts packages-update",
 		"package": "./scripts/package.sh"
 	},
